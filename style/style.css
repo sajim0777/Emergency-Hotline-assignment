@@ -79,6 +79,9 @@ body header nav {
 
 main {
   display: flex;
+  gap: 30px;
+  background: #d7ffe2;
+  padding: 30px;
 }
 
 .depertment-container-d {
@@ -95,6 +98,7 @@ main {
 .deprt-title {
   font-weight: 650;
   font-size: 24px;
+  padding: 10px 0;
 }
 .deprt-description {
   font-size: 18px;
@@ -104,7 +108,8 @@ main {
 .Number-dial {
   margin-top: 24px;
   display: flex;
-  gap: 8px;
+  /* justify-content: space-around */
+  gap: 10px;
   align-items: center;
 }
 .btn-emergency {
@@ -148,6 +153,7 @@ main {
 .depertment-container {
   padding: 32px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .call-history {
