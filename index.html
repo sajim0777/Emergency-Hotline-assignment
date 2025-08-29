@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Hotline</title>
-</head>
-<body>
-    
-    
-</body>
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- FontAwesomeCDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="roboto-font">
+    <header class="head-section">
+      <nav>
+        <div class="logo-title">
+          <img class="logo-top1" src="./assets/logo.png" alt="" />
+          <h2 class="title-top">
+            <span>Emergency</span><br /><span>Service</span>
+          </h2>
+        </div>
+        <div class="top-button">
+          <button class="btn-top-primary">
+            <span id="totalHeart">0</span>
+            <img class="heart-icon" src="./assets/heart.png" alt="" />
+          </button>
+          <button class="btn-top-primary" id="coinBtn">
+            <img class="heart-icon" src="./assets/coin.png" alt="" />
+            <span id="totalCoins">100</span>
+          </button>
+          <button id="totalCopy" class="btn-top-copy2">0 Copy</button>
+        </div>
+      </nav>
+      <div class="Banner">
+        <img class="banner-logo" src="./assets/logo.png" alt="" />
+        <h1 class="banner-titles">Emergency Service Directory</h1>
+        <p class="banner-titles">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="depertment-container-d">
+        <div class="depertment-container">
+          <div class="log-awsone">
+            <button class="btn-emergency">
+              <img
+                class="icon-every-emergency"
+                src="./assets/emergency.png"
+                alt=""
+              />
+            </button>
+            <p class="icon-heart"><i class="fa-regular fa-heart"></i></p>
+          </div>
+          <div>
+            <h1 class="deprt-title">National Emergency Number</h1>
+            <p class="deprt-description">National Emergency</p>
+          </div>
+          <div>
+            <h1 class="deprt-title Number-dial">999</h1>
+            <button class="btn-down-number">All</button>
+          </div>
+          <div class="Number-dial">
+            <button class="btn-copy-number">
+              <i class="fa-regular fa-copy"></i>Copy
+            </button>
+            <button class="btn-call1-number">
+              <i class="fa-solid fa-phone"></i>Call
+            </button>
+          </div>
+        </div>
+        <!-- Repeat for other departments... -->
+      </div>
+
+      <div class="call-history">
+        <div class="call-history-container">
+          <h3>Call History</h3>
+          <button class="clear-btn">Clear</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="/js/main.js"></script>
+  </body>
 </html>
